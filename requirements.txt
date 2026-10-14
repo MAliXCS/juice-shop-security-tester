@@ -1,0 +1,17 @@
+# Requirements for juice_shop_security_tester.py
+#
+# Install with:
+#   pip install -r requirements.txt --break-system-packages
+#
+# (On Kali/Debian-based systems, --break-system-packages is required
+# because the system Python is externally managed.)
+
+# Required - the tool will not run at all without this (it makes all
+# HTTP requests to the target through it).
+requests>=2.31.0
+
+# Optional - only needed for the PDF report (--format pdf / --format all,
+# which is now the default). If it's not installed, the tool still runs
+# fine and produces the JSON and HTML reports; it just skips the PDF and
+# prints an install hint.
+fpdf2>=2.7.9

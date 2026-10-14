@@ -1,0 +1,10 @@
+# Extra dependencies for contributors/development only.
+# End users running the tool only need requirements.txt.
+#
+# Install with:
+#   pip install -r requirements.txt -r requirements-dev.txt --break-system-packages
+
+-r requirements.txt
+
+pytest>=8.0.0      # for a future test suite
+flake8>=7.0.0       # basic linting
