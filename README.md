@@ -1,6 +1,6 @@
 # Juice Shop Security Tester
 
-**v1.0** — an automated security testing tool for **OWASP Juice Shop**, a
+**v2.0** — an automated security testing tool for **OWASP Juice Shop**, a
 deliberately vulnerable training application. It runs three coordinated
 attack-point tests through one shared engine and generates a color-coded,
 severity-grouped report — in JSON, HTML, and PDF — with a clickable table
